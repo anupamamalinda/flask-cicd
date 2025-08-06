@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: fullstackmalinda/flask-cicd:latest
+        image: fullstackmalinda/flask-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
