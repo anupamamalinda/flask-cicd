@@ -12,6 +12,8 @@ spec:
       labels:
         app: flask-app
     spec:
+      imagePullSecrets:
+      - name: dockerhub-creds
       containers:
       - name: flask-app
         image: fullstackmalinda/flask-app-01:latest
