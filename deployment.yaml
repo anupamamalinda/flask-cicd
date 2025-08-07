@@ -15,7 +15,7 @@ spec:
       imagePullSecrets:
       - name: dockerhub-creds
       containers:
-      - name: flask-app
+      - name: flask-app-01
         image: fullstackmalinda/flask-app-01:latest
         imagePullPolicy: Always
         ports:
